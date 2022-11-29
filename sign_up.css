@@ -1,0 +1,77 @@
+.welcome {
+    padding: 80px 0px 192px;
+}
+
+.welcome_text_block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    padding-bottom: 64px;
+}
+
+form {
+    border: none;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #33363A;
+    background-color: black;
+}
+
+::placeholder {
+    color: #707D86;
+    font-size: 16px;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 0px 352px;
+}
+
+.registration p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #707D86;
+}
+
+.registration a {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #9BA9B4;
+}
+
+.registration a:hover {
+    color: red;
+    transition: all 0.5s ease;
+}
+
+.registration_btn a {
+    color: white;
+    text-decoration-line: none;
+}
+
+label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #C5D2DC;
+}
+
+.for_registered {
+    font-size: 16px;
+}
+
+.for_registered a {
+    color: #5D5DFF;
+    font-size: 16px;
+    text-decoration-line: none;
+}
