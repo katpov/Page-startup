@@ -366,6 +366,17 @@ hr {
     padding: 12px 32px;
 }
 
+.footer_form .button:hover {
+    background-color: rgb(238, 240, 161);
+    transition: all 0.5s ease;
+}
+
+.footer_form a:hover,
+.links a:hover {
+    color: red;
+    transition: all 0.5s ease;
+}
+
 .footer_bottom {
     padding: 0px 0px 64px;
 }
