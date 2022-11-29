@@ -13,7 +13,9 @@ form {
     border: none;
 }
 
-input {
+input[type=text],
+input[type=password],
+input[type=email] {
     width: 100%;
     padding: 12px 20px;
     display: inline-block;
@@ -74,4 +76,74 @@ label {
     color: #5D5DFF;
     font-size: 16px;
     text-decoration-line: none;
+}
+
+.psw a {
+    float: right;
+    color: #5D5DFF;
+    text-decoration-line: none;
+}
+
+input[type=checkbox] {
+margin-right: 8px;
+}
+
+@media (max-width: 1152px) {
+    .welcome_text_block .text_block {
+        padding: 0px 58px;
+    }
+
+    .registration {
+        padding: 0px 182px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        padding: 0px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0px 10px;
+    }
+
+    .registration {
+        padding: 0px 122px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+    .welcome_text_block .text_block {
+        padding: 0px;
+    }
+
+    .registration {
+        padding: 0px 36px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .welcome_text_block {
+        padding-bottom: 28px;
+    }
+
+    .registration {
+        padding: 0px 4px;
+    }
+
+    .welcome {
+        padding-top: 32px;
+    }
 }
