@@ -1,0 +1,176 @@
+@media (max-width: 1440px) {
+    .product_row {
+        flex-direction: column;
+        row-gap: 64px;
+    }
+
+    .product_row .image_block {
+        align-self: center;
+    }
+
+    .for_mb {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1152px) {
+    .footer_form input {
+        padding: 12px 16px;
+    }
+
+    .links {
+        column-gap: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        padding: 0px 60px;
+    }
+
+    .text_block {
+        padding: 0px 28px;
+    }
+
+    .icons_group {
+        flex-wrap: wrap;
+        padding: 0px 200px;
+    }
+
+    .icon {
+        padding-bottom: 32px;
+    }
+
+    .features_icons {
+        row-gap: 0px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .tab {
+        width: 80%;
+    }
+
+    .tabs {
+        row-gap: 32px;
+        justify-content: center;
+    }
+
+    .footer_top {
+        row-gap: 24px;
+    }
+
+    .footer_form {
+        justify-content: center;
+    }
+
+    .footer_top_text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .logo_text {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .links {
+        justify-content: space-between;
+    }
+
+    .bottom_links {
+        row-gap: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video_block {
+        display: none;
+    }
+
+    .icons_group {
+        padding: 0px 126px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    body {
+        padding: 0px 10px;
+    }
+
+    .link_btn {
+        column-gap: 10px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero {
+        padding: 58px 0px;
+    }
+
+    .text_block {
+        padding: 0px;
+    }
+
+    .icons_group {
+        padding: 0px;
+    }
+
+    .products {
+        padding-top: 0px;
+    }
+
+    .Illustration,
+    .image_block {
+        max-width: 276px;
+    }
+
+    .testimonials {
+        padding-top: 22px;
+    }
+
+    .footer_form {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .logo_text .logo {
+        max-width: 100%;
+    }
+
+    .bottom_icons {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .footer_bottom p {
+        font-size: 14px;
+    }
+
+    .social_icons {
+        justify-content: space-between;
+    }
+}

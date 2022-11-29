@@ -367,7 +367,11 @@ hr {
 }
 
 .footer_bottom {
-    padding: 64px 0px;
+    padding: 0px 0px 64px;
+}
+
+.bottom_links {
+    padding-top: 64px;
 }
 
 .footer_logo {
@@ -382,7 +386,7 @@ hr {
     row-gap: 14px;
 }
 
-.footer_logo p {
+.footer_bottom p {
     font-size: 16px;
     line-height: 24px;
     margin: 0px;
@@ -407,10 +411,14 @@ hr {
     color: #D9E3EA;
 }
 
+.bottom_icons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .social_icons {
     display: flex;
     column-gap: 16px;
-    justify-content: end;
 }
 
 .twitter::after {
@@ -473,8 +481,3 @@ hr {
     transition: all 0.5s ease;
 }
 
-.links_group {
-    display: flex;
-    flex-direction: column;
-    row-gap: 56px;
-}
